@@ -8,17 +8,21 @@ namespace C0726031_week03
 {
     class Program
     {
-        static void Main(string[] args)
+        class Countryside
         {
-              
+            //how will I make some Villages?
 
         }
-    }
-    
-    class Node
-    {
-        Node PreviousNode;
-        Node NextNode;
-    }
 
+        class Village
+
+        {
+            Village PreviousVillage;
+            Village NextVillage;
+            String villageName;
+            bool isAstrildeHere = false;
+            public Village() { }
+        }
+
+    }
 }
