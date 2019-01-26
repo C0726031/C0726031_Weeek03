@@ -10,6 +10,15 @@ namespace C0726031_week03
     {
         static void Main(string[] args)
         {
+              
+
         }
     }
+    
+    class Node
+    {
+        Node PreviousNode;
+        Node NextNode;
+    }
+
 }
