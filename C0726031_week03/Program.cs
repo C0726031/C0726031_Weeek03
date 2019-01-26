@@ -27,11 +27,19 @@ namespace C0726031_week03
                 Maeland.NextVillage = Scheing;
                 Scheing.NextVillage = Alst;
             }
-            public void WalkAround()
+            public void FindAstrilde()
             {
-                Village InitialVillage = this.Maeland;
+                {
+                    Village CurrentVillage = this.Maeland;
+                    if (CurrentVillage.isAstrildeHere)
+                    {
+                        Console.WriteLine("Hugi found Astrilde !!! Celebrations! XOXO");
+                    }
+                    Village NextVillage;
 
+                    NextVillage = CurrentVillage.NextVillage;
 
+                }
             }
 
 
