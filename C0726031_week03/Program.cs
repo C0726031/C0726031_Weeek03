@@ -21,7 +21,6 @@ namespace C0726031_week03
             Village NextVillage;
             String villageName;
             bool isAstrildeHere = false;
-            bool mexicoHere = false;
             bool islandHere = false;
             public Village() { }
         }
